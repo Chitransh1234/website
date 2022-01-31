@@ -1,0 +1,37 @@
+#Main{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.75)), url(Main_page.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+#Main{
+	text-align: center;
+}
+#Main .navbar-brand{
+	font-size: 2rem;
+	font-weight: 700;
+}
+@media screen and (max-width: 992px) {
+	#collapsenav ul{ background-color: grey;}
+}
+#Main nav li a{
+	font-size: 1.25rem;
+	font-weight: 500;
+	color: white;
+}
+#Main nav li a:hover{
+	border-bottom: 2px solid white;
+}
+#Main .dropdown a:hover{
+	background-color: grey;
+	border: none;
+}
+#Main h1{
+	font-size: 5em;
+	font-weight: bold;
+	letter-spacing: 0.1rem;
+}
+.card:hover{
+     transform: scale(1.03);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
